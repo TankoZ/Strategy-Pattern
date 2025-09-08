@@ -1,4 +1,4 @@
-# Basic Undersstanding of Java(OOPS) 
+# Basic Understanding of Java(OOPS) 
 
 
 This project demonstrates the **Strategy Design Pattern** in Java using different types of ducks. Each duck has behaviors like flying, quacking, swimming, and displaying. Instead of hardcoding behavior into each duck class, this project shows how to design flexible and reusable code where behaviors can be composed and changed at runtime.
