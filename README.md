@@ -1,7 +1,7 @@
 # Basic Understanding of Java(OOPS) 
 
 
-This project demonstrates the **Strategy Design Pattern** in Java using different types of ducks. Each duck has behaviors like flying, quacking, swimming, and displaying. Instead of hardcoding behavior into each duck class, this project shows how to design flexible and reusable code where behaviors can be composed and changed at runtime.
+This project is a **basic Java program** designed to **understand and practice key Object-Oriented Programming (OOP) concepts** such as **abstraction, encapsulation, polymorphism, and the Strategy Design Pattern**. It simulates different types of ducks with interchangeable behaviors like flying, quacking, swimming, and displaying. This demonstrates how to write **flexible, reusable, and modular code** without hardcoding behavior into each class.
 
 ---
 
@@ -9,7 +9,7 @@ This project demonstrates the **Strategy Design Pattern** in Java using differen
 
 The program defines multiple duck types:
 
-* **RedHeadDuck** – A duck with red head, can fly and quack.
+* **RedHeadDuck** – A duck with a red head, can fly and quack.
 * **RubberDuck** – A toy duck, may not fly but can squeak instead of quacking.
 * **MallardDuck** – A common wild duck with flying and quacking ability.
 * **DecoyDuck** – A wooden duck, does not fly or quack.
@@ -20,10 +20,11 @@ The **Main** class creates instances of these ducks and calls their behaviors (`
 
 ## 🛠 Features
 
-* Uses **Strategy Pattern** for duck behaviors.
-* Demonstrates **encapsulation** of flying and quacking behavior into separate classes.
-* Flexible: behaviors can be reused across different duck types.
-* Easy to extend: new duck types or behaviors can be added without changing existing code.
+* **Strategy Pattern** → Encapsulates behaviors like flying and quacking into separate classes/interfaces.
+* **Abstraction** → Duck types only know about interfaces, not concrete implementations of behaviors.
+* **Encapsulation** → Each behavior is a separate class, making it independent and reusable.
+* **Polymorphism** → Different duck types can perform the same behavior in different ways.
+* **Modularity & Extensibility** → New duck types or behaviors can be added without modifying existing code.
 
 ---
 
@@ -66,12 +67,18 @@ redHeadDuck.performSwim();
 
 ---
 
+## 🎯 OOP Concepts Demonstrated
+
+* **Abstraction** → Duck classes use interfaces to define behaviors.
+* **Encapsulation** → Each behavior is encapsulated in its own class.
+* **Polymorphism** → Duck objects can perform behaviors differently at runtime.
+* **Modularity** → Easy to extend with new duck types or behaviors.
+* **Strategy Pattern** → Allows dynamic swapping of behaviors at runtime.
+
+---
+
 ## 👨‍💻 Author
 
 * **Henil Shah**
 * Roll No: *22070126102*
 * AIML B1
-
----
-
-Do you also want me to include a **UML diagram** (class diagram) of the duck strategy design in the README? That would make it even more professional.
